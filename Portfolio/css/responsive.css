@@ -1,0 +1,210 @@
+@media (max-width: 575.98px) {
+    .menu_fix .nav-item a {
+        line-height: 50px;
+        text-align: center;
+    }
+
+/*================================================
+                    Banner Part Start
+================================================*/
+
+#banner {
+    padding:50px 0;
+}
+
+.banner_text {
+    margin-top: 40px !important;
+}
+
+
+
+.banner_text h2 {
+    font-size: 20px !important;
+}
+
+.banner_text h1 {
+    font-size: 30px !important;
+}
+
+
+
+.banner_text a {
+    margin-top: 38px;
+}
+
+/*================================================
+                    Banner Part End
+================================================*/
+
+/*================================================
+                    About Part Start
+================================================*/
+
+#about {
+    padding: 50px 0;
+}
+
+.about_text h2 {
+    font-size: 20px !important;
+   
+}
+
+.about_text p {
+	font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+.about_text h3 {
+    font-size: 25px !important;
+}
+
+
+.about_bottom h5 {
+    font-size: 13px !important;
+}
+
+.about_bottom h6,
+.about_bottom a {
+    font-size: 15px !important;
+}
+
+/*================================================
+                    About Part End
+================================================*/
+
+
+
+/*================================================
+                    Common_head Part Start
+================================================*/
+
+.common_head h5 {
+    font-size: 20px !important;
+}
+
+.common_head h3 {
+    font-size: 22px !important;
+}
+
+
+/*================================================
+                    Common_head Part End
+================================================*/
+
+/*================================================
+                    Portfolio Part Start
+================================================*/
+
+#portfolio {
+    padding:50px 0;
+}
+
+.item .overly a {
+    font-size: 15px;
+}
+
+.item h4 {
+    font-size: 16px;
+}
+
+.item span {
+    font-size: 16px;
+}
+
+.item span::after {
+    top: 45%;
+    left: -40%;
+}
+
+
+/*================================================
+                    Portfolio Part End
+================================================*/
+
+/*================================================
+                    Testimonial Part Start
+================================================*/
+#testimonial {
+    padding: 50px 0;
+}
+
+.test_item p {
+	font-size: 13px;
+	color: #fff;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.test_slider .prev, .test_slider .next {
+	font-size: 18px;
+	
+}
+
+/*================================================
+                    Testimonial Part End
+================================================*/
+
+/*================================================
+                    Faq Part Start
+================================================*/
+
+#faq {
+    padding:50px 0;
+}
+
+.accordion-button:not(.collapsed) {
+	font-size: 16px;
+}
+
+.accordion-body p {
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+/*================================================
+                    Faq Part End
+================================================*/
+
+/*================================================
+                    Contact Part Start
+================================================*/
+.get_touch h4 {
+	font-size: 18px;
+}
+
+.cont_a a {
+	font-size: 15px;
+}
+
+/*================================================
+                    Contact Part End
+================================================*/
+
+}
+
+@media(min-width: 576px) and (max-width: 767.98px) {
+
+    .menu_fix .nav-item a {
+        line-height: 50px;
+        text-align: center;
+    }
+
+}
+
+
+
+@media(min-width: 768px) and (max-width: 991.98px) {
+    .menu_bg .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+}
+
+/* @media(min-width: 992px) and (max-width: 1199.98px) { 
+
+
+ }
+@media(min-width: 1200px) and (max-width: 1399.98px) { 
+ */

@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar_active">
+    <!---==========================================================
+                            Nav Part Start
+    ============================================================-->
+
+    <nav class="navbar navbar-expand-lg navbar-light menu_bg main_menu navbar_active">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">LOGO</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#banner">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonial">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">Faq</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!---==========================================================
+                            Nav Part End
+    ============================================================-->
+
+
+
+    <!---==========================================================
+                            Banner Part Start
+    ============================================================-->
+
+    <section id="banner" style="background: #1e1e1e;">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="banner_text text-center align-items-center">
+                            <h1><span class="type_js"></span></h1>
+                            <h2>A Professional designer Can Help You <br> to grow your startup business.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 button mt-5 wow bounceInUp">
+                    <a href="#">book a free consultation</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!---==========================================================
+                            Banner Part End
+    ============================================================-->
+
+    <!---==========================================================
+                            About Part Start
+    ============================================================-->
+
+
+    <section id="about" style="background: #191919;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center common_head wow bounceInDown">
+                    <h5>discover</h5>
+                    <h3>About me</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 about_text">
+                    <h2>Why Me?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 about_text">
+                    <h3>I help you to make beautiful Websites</h3>
+
+                    <p>I'm a Freelance Full Stack Developer based in Dhaka, Bangladesh, and I'm very passionate and
+                        dedicated to my work .With 6 years experience as a professional Full Stack Developer, I have
+                        acquired the skills necessary to build great and premium websites.
+                    </p>
+                </div>
+                <div class="col-sm-6 about_right">
+                    <img src="images/pexel.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+
+            <div class="row about_bottom">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-3 wow slideInRight">
+                            <h5>Name:</h5>
+                            <h6>Md.Ibrahim Howladar</h6>
+                        </div>
+                        <div class="col-sm-3 wow bounceInUp">
+                            <h5>E-mail:</h5>
+                            <a href="mailto:webmaster@example.com">lorem@example.com</a>
+                        </div>
+                        <div class="col-sm-3 wow bounceInDown">
+                            <h5>Experience</h5>
+                            <h6>5 years</h6>
+                        </div>
+                        <div class="col-sm-3 wow slideInLeft">
+                            <h5>From</h5>
+                            <h6>Dhaka ,Bangladesh</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <!---==========================================================
+                            About Part End
+    ============================================================-->
+
+
+    <!---==========================================================
+                            Portfolio Part Start
+    ============================================================-->
+
+    <section id="portfolio" style="background: #1e1e1e;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center common_head wow bounceInUp">
+                    <h5>Recent work</h5>
+                    <h3>My Portfolio</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="mixit_up text-center">
+                        <button type="button" data-filter="all">All</button>
+                        <button type="button" data-filter=".category-a">Web Design</button>
+                        <button type="button" data-filter=".category-b">UI/UX Design</button>
+                        <button type="button" data-filter=".category-c">iOS Design</button>
+                        <button type="button" data-filter=".category-d">Graphic Design</button>
+
+                        <div class="mix_container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="row">
+                                        <div class="col-sm-4 mix category-a" data-order="1">
+                                            <div class="item mb-4">
+                                                <img src="images/p1.jpg" class="img-fluid" alt="image">
+
+                                                <div class="overly">
+                                                    <h4 class="item-title">Project Title</h4>
+
+                                                    <a class="my-image-links" data-gall="gallery01"
+                                                        href="images/p1.jpg">
+                                                        <i class="fa fa-search-plus"></i>
+                                                    </a>
+
+                                                    <div class="item-category">
+                                                        <span>Front End</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 mix category-c" data-order="2">
+                                            <div class="item mb-4">
+                                                <img src="images/p2.jpg" class="img-fluid" alt="image">
+
+                                                <div class="overly">
+                                                    <h4 class="item-title">Project Title</h4>
+
+                                                    <a class="my-image-links" data-gall="gallery01"
+                                                        href="images/p2.jpg">
+                                                        <i class="fa fa-search-plus"></i>
+                                                    </a>
+
+                                                    <div class="item-category">
+                                                        <span>Front End</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 mix category-d" data-order="3">
+                                            <div class="item mb-4">
+                                                <img src="images/p3.jpg" class="img-fluid" alt="image">
+
+                                                <div class="overly">
+                                                    <h4 class="item-title">Project Title</h4>
+
+                                                    <a class="my-image-links" data-gall="gallery01"
+                                                        href="images/p3.jpg">
+                                                        <i class="fa fa-search-plus"></i>
+                                                    </a>
+
+                                                    <div class="item-category">
+                                                        <span>Front End</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 mix category-a" data-order="4">
+                                            <div class="item mb-4">
+                                                <img src="images/p4.jpg" class="img-fluid" alt="image">
+
+                                                <div class="overly">
+                                                    <h4 class="item-title">Project Title</h4>
+
+                                                    <a class="my-image-links" data-gall="gallery01"
+                                                        href="images/p4.jpg">
+                                                        <i class="fa fa-search-plus"></i>
+                                                    </a>
+
+                                                    <div class="item-category">
+                                                        <span>Front End</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 mix category-c" data-order="5">
+                                            <div class="item mb-4">
+                                                <img src="images/p1.jpg" class="img-fluid" alt="image">
+
+                                                <div class="overly">
+                                                    <h4 class="item-title">Project Title</h4>
+
+                                                    <a class="my-image-links" data-gall="gallery01"
+                                                        href="images/p1.jpg">
+                                                        <i class="fa fa-search-plus"></i>
+                                                    </a>
+
+                                                    <div class="item-category">
+                                                        <span>Front End</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4 mix category-b" data-order="6">
+                                            <div class="item mb-4">
+                                                <img src="images/p2.jpg" class="img-fluid" alt="image">
+
+                                                <div class="overly">
+                                                    <h4 class="item-title">Project Title</h4>
+
+                                                    <a class="my-image-links" data-gall="gallery01"
+                                                        href="images/p2.jpg">
+                                                        <i class="fa fa-search-plus"></i>
+                                                    </a>
+
+                                                    <div class="item-category">
+                                                        <span>Front End</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!---==========================================================
+                            Portfolio Part End
+    ============================================================-->
+
+
+    <!---==========================================================
+                            Testimonial Part Start
+    ============================================================-->
+
+    <section id="testimonial" class="test_slider" style="background: #191919;">
+        <i class="fas fa-chevron-left prev"></i>
+        <i class="fas fa-chevron-right next"></i>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center common_head wow bounceInUp">
+                    <h5>kind words</h5>
+                    <h3>Testimonial</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-8">
+                    <div class="test_main">
+                        <div class="col-sm-8 test_item" style="background-color: #1e1e1e;">
+                            <div class="test_img mt-4 text-center">
+                                <img src="images/test_1.jpg" class="img-fluid" alt="image">
+                            </div>
+                            <p>"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
+                                aliqua, retro synth master cleanse."</p>
+                            <span>- Anj Joseph, Web Developer</span>
+                        </div>
+                        <div class="col-sm-8 test_item" style="background-color: #1e1e1e;">
+                            <div class="test_img mt-4 text-center">
+                                <img src="images/test_1.jpg" class="img-fluid" alt="image">
+                            </div>
+                            <p>"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
+                                aliqua, retro synth master cleanse."</p>
+                            <span>- Anj Joseph, Web Developer</span>
+                        </div>
+                        <div class="col-sm-8 test_item" style="background-color: #1e1e1e;">
+                            <div class="test_img mt-4 text-center">
+                                <img src="images/test_1.jpg" class="img-fluid" alt="image">
+                            </div>
+                            <p>"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
+                                aliqua, retro synth master cleanse."</p>
+                            <span>- Anj Joseph, Web Developer</span>
+                        </div>
+                        <div class="col-sm-8 test_item" style="background-color: #1e1e1e;">
+                            <div class="test_img mt-4 text-center">
+                                <img src="images/test_1.jpg" class="img-fluid" alt="image">
+                            </div>
+                            <p>"Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
+                                aliqua, retro synth master cleanse."</p>
+                            <span>- Anj Joseph, Web Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---==========================================================
+                            Testimonial Part End
+    ============================================================-->
+
+
+    <!---==========================================================
+                            Faq Part Start
+    ============================================================-->
+
+    <section id="faq" style="background: #1e1e1e;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center common_head faq_text wow bounceInLeft">
+                    <h5>Frequently Asked</h5>
+                    <h3>Question</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 faq_acordion wow bounceInDown">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    Where can I see your professional work ?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, asperiores!
+                                        Modi, illo iusto? Error modi voluptas itaque sunt corporis. Iure, rerum minima
+                                        vero ducimus sapie-nte tempore provident nihil ab id cumque aperiam blanditiis
+                                        fugit odio.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    Where can I see your professional work ?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, asperiores!
+                                        Modi, illo iusto? Error modi voluptas itaque sunt corporis. Iure, rerum minima
+                                        vero ducimus sapie-nte tempore provident nihil ab id cumque aperiam blanditiis
+                                        fugit odio.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    Where can I see your professional work ?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, asperiores!
+                                        Modi, illo iusto? Error modi voluptas itaque sunt corporis. Iure, rerum minima
+                                        vero ducimus sapie-nte tempore provident nihil ab id cumque aperiam blanditiis
+                                        fugit odio.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---==========================================================
+                            Faq Part End
+    ============================================================-->
+
+
+    <!---==========================================================
+                            Contact Part Start
+    ============================================================-->
+
+    <section id="contact" style="background: #191919;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center common_head wow bounceInUp">
+                    <h5>Say hello</h5>
+                    <h3>contact</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 get_touch">
+                    <h4>Get in Touch</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 mt-4 wow bounceInUp">
+                    <div class="cont_item">
+                        <div class="cont_icon mb-4">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <div class="cont_a mt-2">
+                            <a href="#">Dhaka , Bangladesh</a>
+                        </div>
+                        <div class="cont_bottom mt-1">
+                            <p>Address</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mt-4 wow bounceInUp">
+                    <div class="cont_item">
+                        <div class="cont_icon mb-4">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="cont_a mt-2">
+                            <a href="tel:9876543210">+9876543210</a>
+                        </div>
+                        <div class="cont_bottom mt-1">
+                            <p>Call Me</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mt-4 wow bounceInUp">
+                    <div class="cont_item">
+                        <div class="cont_icon mb-4">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="cont_a mt-2">
+                            <a href="mailto:hello@beingeorge.com">hello@beingeorge.com</a>
+                        </div>
+                        <div class="cont_bottom mt-1">
+                            <p>E-mail Me</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row get_touch wow slideInRight" style="margin-top:50px;">
+                <h4>Contact Form</h4>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="contact_form">
+                        <form action="action_page.php">
+
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                            <input type="email" id="lname" name="email" placeholder="Your email..">
+
+                            <input type="text" id="fname" name="subject" placeholder="Your Subject..">
+
+                            <textarea id="subject" name="subject" placeholder="Write something.."
+                                style="height:200px"></textarea>
+
+                            <input type="submit" value="Submit">
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---==========================================================
+                            Contact Part End
+    ============================================================-->
+
+
+    <!---==========================================================
+                            Footer Part Start
+    ============================================================-->
+
+    <footer id="footer" style="background: #1e1e1e;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 footer text-center">
+                    <p>Copyright © All rights reserved by <a href="#">LOGO</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!---==========================================================
+                            Footer Part End
+    ============================================================-->
+
+
+    <!-- <div class="row">
+                        <div class="col-sm-6">
+                            <ul>
+                                <li><i class="fas fa-angle-double-right"></i>Web design</li>
+                                <li><i class="fas fa-angle-double-right"></i>iOS design</li>
+                                <li><i class="fas fa-angle-double-right"></i>User experience</li>
+                                <li><i class="fas fa-angle-double-right"></i>Web design</li>
+                                <li><i class="fas fa-angle-double-right"></i>iOS design</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <ul>
+                                <li><i class="fas fa-angle-double-right"></i>Web design</li>
+                                <li><i class="fas fa-angle-double-right"></i>iOS design</li>
+                                <li><i class="fas fa-angle-double-right"></i>User experience</li>
+                                <li><i class="fas fa-angle-double-right"></i>Web design</li>
+                                <li><i class="fas fa-angle-double-right"></i>iOS design</li>
+                            </ul>
+                        </div>
+                    </div> -->
+
+
+
+
+    <!---==========================================================
+                            Back_to_top Part Start
+    ============================================================-->
+
+    <div class="bt_top">
+        <i class="far fa-arrow-alt-circle-up"></i>
+    </div>
+
+    <!---==========================================================
+                            Back_to_top Part End
+    ============================================================-->
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/jquery.ripples-min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
